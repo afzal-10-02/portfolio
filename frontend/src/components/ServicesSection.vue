@@ -54,7 +54,5 @@ export default {
   align-items: center; 
   justify-content: center;
 }
-#services{
-  max-width: 100%;
-}
+
 </style>

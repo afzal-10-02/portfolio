@@ -143,7 +143,5 @@ export default {
   align-items: center; 
   justify-content: center;
 }
-#contact{
-  max-width: 100%;
-}
+
 </style>

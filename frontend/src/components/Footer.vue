@@ -33,8 +33,6 @@ export default {
 }
 </script>
 <style scoped>
-#footer{
-  max-width: 100%;
-}
+
 
 </style>

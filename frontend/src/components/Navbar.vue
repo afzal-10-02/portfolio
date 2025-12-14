@@ -71,10 +71,6 @@ export default {
   color: black !important;
 }
 
-#nav{
-  max-width: 100%;
-}
-
 .contact{
   background-color: White;
 }

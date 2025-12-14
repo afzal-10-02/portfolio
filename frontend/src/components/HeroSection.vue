@@ -57,7 +57,4 @@ export default {
   max-height: 600px;
 }
 
-#home{
-  max-width: 100%;
-}
 </style>

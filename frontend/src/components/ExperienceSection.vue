@@ -57,8 +57,5 @@ export default {
 
 <style scoped>
 
-#experience{
-  max-width: 100%;
-}
 
 </style>
