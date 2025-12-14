@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
         <i class="bi bi-activity me-1"></i> Dr. Saroj Kumar
@@ -71,7 +71,7 @@ export default {
   color: black !important;
 }
 
-.navbar{
+#nav{
   max-width: 100%;
 }
 
