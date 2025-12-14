@@ -6,7 +6,7 @@ export default {
 
 
 <template>
-  <section id="home" class="d-flex align-items-center bg-light-blue" style="min-height: 100vh;">
+  <section id="home" class="d-flex align-items-center bg-light-blue py-4 ">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 order-2 order-lg-1 animate-fade-in">
