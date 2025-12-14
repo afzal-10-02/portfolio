@@ -11,10 +11,10 @@
         <div class="col-lg-6 mb-4 text-lg-end">
           <h5 class="fw-bold text-primary mb-3">Social Connect</h5>
           <div class="d-flex justify-content-lg-end gap-3">
-            <a href="#" class="btn btn-outline-light rounded-circle"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="btn btn-outline-light rounded-circle"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="btn btn-outline-light rounded-circle"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="btn btn-outline-light rounded-circle"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/share/16YiUuzPPn" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle"><i class="bi bi-facebook"></i></a>
+            <a href="https://youtube.com/@guidetoradiologysolution3236" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/saroj.kumar.75" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/918210449270" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle"><i class="bi bi-whatsapp"></i></a>
           </div>
         </div>
       </div>

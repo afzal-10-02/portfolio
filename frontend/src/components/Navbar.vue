@@ -21,7 +21,7 @@
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Expertise</a></li>
           <li class="nav-item">
-            <a class="nav-link btn ms-lg-3 px-4 rounded-pill fw-bold custom-book-btn" href="#contact">
+            <a class="nav-link btn ms-lg-3 px-4 rounded-pill fw-bold custom-book-btn contact" href="#contact">
               Book Appointment
             </a>
           </li>
@@ -29,12 +29,16 @@
       </div>
     </div>
   </nav>
+  <div ref="gapRef" class="gap">
+
+  </div>
 </template>
 
-<script>
+<script >
 export default {
   name: 'Navbar'
 }
+
 </script>
 
 <style scoped>
@@ -48,8 +52,31 @@ export default {
 .nav-link {
   cursor: pointer;
   font-weight: 500;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 25px;
 }
+
+.nav-link:hover{
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.nav-link{
+  padding: 5px;
+  margin: 0;
+}
+
 .custom-book-btn {
   color: black !important;
 }
+
+.navbar{
+  max-width: 100%;
+}
+
+.contact{
+  background-color: White;
+}
+
 </style>

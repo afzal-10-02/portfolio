@@ -27,8 +27,11 @@
                     <textarea class="form-control form-control-lg bg-light border-0" v-model="form.message" rows="4" placeholder="Tell us about your pain or preferred appointment time..." required></textarea>
                   </div>
                   <div class="col-12 mt-4">
-                    <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill fw-bold">
-                      <i class="bi bi-send-fill me-2"></i> Send Request
+                    
+                    <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill fw-bold" :disabled="isSubmitting">
+                        <span v-if="isSubmitting" class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                        <span v-if="isSubmitting">Sending...</span>
+                        <span v-else><i class="bi bi-send-fill me-2"></i> Send Request</span>
                     </button>
                   </div>
                 </div>
@@ -58,7 +61,7 @@
               </div>
               <div>
                 <h5 class="fw-bold mb-1">Email Us</h5>
-                <p class="text-muted mb-0">appointment@drsarojkumar.com</p>
+                <p class="text-muted mb-0">drsarojk.spine@gmail.com</p>
               </div>
             </div>
             <div class="d-flex mb-4">
@@ -67,7 +70,7 @@
               </div>
               <div>
                 <h5 class="fw-bold mb-1">Call Us</h5>
-                <p class="text-muted mb-0">+91 98765 43210</p>
+                <p class="text-muted mb-0">+91 8210449270</p>
               </div>
             </div>
           </div>
@@ -82,6 +85,7 @@ export default {
   name: 'ContactSection',
   data() {
     return {
+      isSubmitting: false,
       form: {
         name: '',
         phone: '',
@@ -91,11 +95,37 @@ export default {
     }
   },
   methods: {
-    submitForm() {
-      // Logic to handle form submission
-      alert(`Thank you ${this.form.name}! Your request has been received. We will contact you at ${this.form.phone} shortly.`);
-      // Reset form
-      this.form = { name: '', phone: '', email: '', message: '' };
+    async submitForm() {
+      this.isSubmitting = true;
+
+      try {
+        // 2. Send Data to Flask Backend
+        const response = await fetch('http://127.0.0.1:5000/send-appointment', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(this.form)
+        });
+
+        const result = await response.json();
+
+        // 3. Handle Response
+        if (response.ok) {
+          alert('✅ Appointment Request Sent! We will contact you shortly.');
+          // Reset the form
+          this.form = { name: '', phone: '', email: '', message: '' };
+        } else {
+          alert('❌ Error: ' + result.message);
+        }
+
+      } catch (error) {
+        console.error('Submission error:', error);
+        alert('❌ An error occurred while sending your request. Please try again later.');
+      } finally {
+        // 4. Reset loading state
+        this.isSubmitting = false;
+      }
     }
   }
 }

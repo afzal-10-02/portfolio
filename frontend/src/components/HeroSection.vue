@@ -56,4 +56,5 @@ export default {
   object-fit: cover;
   max-height: 600px;
 }
+
 </style>
