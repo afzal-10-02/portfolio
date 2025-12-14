@@ -21,7 +21,7 @@
           <li class="nav-item"><a class="nav-link" @click="closeMenu" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" @click="closeMenu" href="#services">Expertise</a></li>
           <li class="nav-item">
-            <a class="nav-link btn ms-lg-3 px-4 rounded-pill fw-bold custom-book-btn contact" href="#contact">
+            <a class="nav-link btn ms-lg-3 px-4 rounded-pill fw-bold custom-book-btn contact" @click="closeMenu" href="#contact">
               Book Appointment
             </a>
           </li>
