@@ -27,7 +27,7 @@ export default {
         </div>
         <div class="col-lg-6 order-1 order-lg-2 text-center mb-5 mb-lg-0">
           <div class="position-relative d-inline-block">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+            <img src="../asset/img.jpg" 
                  alt="Dr Saroj Kumar" 
                  class="img-fluid rounded-4 shadow-lg border border-5 border-white hero-img">
             
