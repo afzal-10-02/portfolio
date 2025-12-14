@@ -52,4 +52,13 @@
 export default {
   name: 'ExperienceSection'
 }
+
 </script>
+
+<style scoped>
+
+#experience{
+  max-width: 100%;
+}
+
+</style>

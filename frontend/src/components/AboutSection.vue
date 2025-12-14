@@ -62,4 +62,10 @@ export default {
   color: #0d6efd;
   border: 1px solid #0d6efd;
 }
+
+#about{
+  max-width: 100%;
+}
+
+
 </style>

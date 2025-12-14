@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-dark text-white pt-5">
+  <footer id="footer" class="bg-dark text-white pt-5">
     <div class="container pb-4">
       <div class="row">
         <div class="col-lg-6 mb-4">
@@ -32,3 +32,9 @@ export default {
   name: 'Footer'
 }
 </script>
+<style scoped>
+#footer{
+  max-width: 100%;
+}
+
+</style>
