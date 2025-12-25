@@ -12,7 +12,7 @@ export default {
         <div class="col-lg-6 order-2 order-lg-1 animate-fade-in">
           <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill">Ortho–Neuro Pain Rehabilitation</span>
           <h1 class="display-4 fw-bold mb-4">Dr. Saroj Kumar</h1>
-          <h4 class="text-muted mb-4 h5">BPT, MPT, Master Dip. Chiropractic, Radio-BMIT</h4>
+          <h4 class="text-muted mb-4 h5">PT, Chiropractor</h4>
           <p class="lead text-secondary mb-5">
             Combining modern radiological understanding with advanced chiropractic techniques for safe, non-surgical pain relief.
           </p>

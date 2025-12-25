@@ -11,22 +11,22 @@
                   <li class="mb-3 d-flex align-items-start">
                     <i class="bi bi-mortarboard-fill text-warning me-3 fs-5"></i>
                     <div>
-                      <strong>BPT, MPT</strong>
-                      <div class="small text-muted">Rajiv Gandhi University</div>
+                      <strong>Master in Radiodiagnosis Imaging</strong>
+                      <div class="small text-muted">Rajiv Gandhi University of Health Sciences, Bangalore</div>
                     </div>
                   </li>
                   <li class="mb-3 d-flex align-items-start">
                     <i class="bi bi-award-fill text-warning me-3 fs-5"></i>
                     <div>
-                      <strong>Master Dip. Chiropractic</strong>
-                      <div class="small text-muted">Advanced Mobilization</div>
+                      <strong>BPT, MPT</strong>
+                      <div class="small text-muted">RGUHS</div>
                     </div>
                   </li>
                   <li class="mb-3 d-flex align-items-start">
                     <i class="bi bi-file-medical-fill text-warning me-3 fs-5"></i>
                     <div>
-                      <strong>Radio-BMIT</strong>
-                      <div class="small text-muted">Radiological Interpretation</div>
+                      <strong>PG-Dip. Chiropractic</strong>
+                      <div class="small text-muted">Advance Mobilization-RKM</div>
                     </div>
                   </li>
                 </ul>
