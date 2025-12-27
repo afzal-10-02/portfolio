@@ -52,7 +52,7 @@
               </div>
               <div>
                 <h5 class="fw-bold mb-1">Clinic Locations</h5>
-                <p class="text-muted mb-0">Back To Nature Spine Clinics<br>Patna, Mumbai, Hyderabad</p>
+                <p class="text-muted mb-0">Kaishalnagar<br>Patna - 800001</p>
               </div>
             </div>
             <div class="d-flex mb-4">
